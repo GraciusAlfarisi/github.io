@@ -139,7 +139,7 @@ var fx = new TextScramble(el);
 var counter = 0;
 var next = function next() {
   fx.setText(phrases[counter]).then(function () {
-    setTimeout(next, 1500);
+    setTimeout(next, 2200);
   });
   counter = (counter + 1) % phrases.length;
 };
